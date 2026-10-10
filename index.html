@@ -340,6 +340,7 @@
           <p>Cadastre-se e garanta acesso antecipado ao piloto e ao Clube ClassiMEI.</p>
           <form id="form-interesse" action="https://formsubmit.co/jorgertj@gmail.com" method="POST" novalidate>
             <input type="hidden" name="_subject" value="Lista de interesse ClassiMEI">
+            <input type="hidden" name="_cc" value="jaimesousilva@gmail.com">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_captcha" value="false">
             <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
@@ -518,7 +519,7 @@
 
   <script>
     (function () {
-      // FormSubmit: envia o cadastro para jorgertj@gmail.com (confirme o 1º e-mail do FormSubmit)
+      // FormSubmit: envia para jorgertj@gmail.com e CC jaimesousilva@gmail.com (cada um confirma o 1º e-mail)
       var FORMSUBMIT_URL = "https://formsubmit.co/ajax/jorgertj@gmail.com";
 
       document.getElementById("ano").textContent = new Date().getFullYear();
@@ -561,6 +562,7 @@
           cidade: form.cidade.value.trim(),
           lgpd: form.lgpd.checked ? "Aceito" : "",
           _subject: "Lista de interesse ClassiMEI",
+          _cc: "jaimesousilva@gmail.com",
           _template: "table",
           _captcha: "false"
         };
