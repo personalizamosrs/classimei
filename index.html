@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClassiMEI – Rede profissional do MEI | Em breve</title>
+  <meta name="description" content="ClassiMEI é a rede profissional exclusiva para Microempreendedores Individuais. Crie seu perfil, seja encontrado na internet e gere novas oportunidades. Lançamento em breve.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://classimei.com.br/">
+  <meta name="theme-color" content="#0b2545">
+
+  <link rel="icon" href="favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="ClassiMEI">
+  <meta property="og:title" content="ClassiMEI – Rede profissional do MEI">
+  <meta property="og:description" content="Visibilidade, credibilidade e oportunidades para Microempreendedores Individuais. Cadastre-se para ser avisado do lançamento.">
+  <meta property="og:url" content="https://classimei.com.br/">
+  <meta property="og:image" content="https://classimei.com.br/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="ClassiMEI – Visibilidade. Credibilidade. Oportunidade.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ClassiMEI – Rede profissional do MEI">
+  <meta name="twitter:description" content="Visibilidade, credibilidade e oportunidades para Microempreendedores Individuais.">
+  <meta name="twitter:image" content="https://classimei.com.br/og-image.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://classimei.com.br/#organization",
+        "name": "ClassiMEI",
+        "url": "https://classimei.com.br/",
+        "logo": "https://classimei.com.br/logo.png",
+        "slogan": "Visibilidade. Credibilidade. Oportunidade.",
+        "description": "Rede profissional exclusiva para Microempreendedores Individuais (MEI).",
+        "email": "contato@classimei.com.br",
+        "areaServed": { "@type": "Country", "name": "Brasil" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://classimei.com.br/#website",
+        "url": "https://classimei.com.br/",
+        "name": "ClassiMEI",
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://classimei.com.br/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://classimei.com.br/#webpage",
+        "url": "https://classimei.com.br/",
+        "name": "ClassiMEI – Rede profissional do MEI | Em breve",
+        "isPartOf": { "@id": "https://classimei.com.br/#website" },
+        "about": { "@id": "https://classimei.com.br/#organization" },
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O que é o ClassiMEI?",
+            "acceptedAnswer": { "@type": "Answer", "text": "O ClassiMEI é uma rede profissional exclusiva para Microempreendedores Individuais. O MEI cria um perfil com seus serviços, produtos, área de atendimento e portfólio, e passa a ser encontrado por quem procura esses serviços na sua cidade ou bairro." }
+          },
+          {
+            "@type": "Question",
+            "name": "Quem pode criar um perfil no ClassiMEI?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Qualquer Microempreendedor Individual com CNPJ MEI ativo poderá criar seu perfil profissional na plataforma." }
+          },
+          {
+            "@type": "Question",
+            "name": "Como os clientes entram em contato com o MEI?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Quem procura um serviço pesquisa por atividade e localização, compara perfis e entra em contato diretamente com o MEI pelo WhatsApp ou pelo link indicado no perfil." }
+          },
+          {
+            "@type": "Question",
+            "name": "O que é o Clube ClassiMEI?",
+            "acceptedAnswer": { "@type": "Answer", "text": "O Clube ClassiMEI vai reunir benefícios e vantagens exclusivas para os Microempreendedores Individuais cadastrados. Inscreva-se na lista de interesse para ser avisado assim que abrir." }
+          },
+          {
+            "@type": "Question",
+            "name": "Quando o ClassiMEI será lançado?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A plataforma está em desenvolvimento e começará com um piloto regional. Deixe seu e-mail nesta página para receber o convite de lançamento." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --navy: #0b2545;
+      --navy-2: #13315c;
+      --green: #208543;
+      --green-dark: #17693a;
+      --yellow: #f7c21b;
+      --ink: #1d2433;
+      --muted: #5b6577;
+      --bg: #f5f7fb;
+      --white: #ffffff;
+      --radius: 14px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img, svg { max-width: 100%; display: block; }
+    a { color: var(--green-dark); }
+    .container { width: min(1120px, 100% - 2.5rem); margin-inline: auto; }
+    .skip-link {
+      position: absolute; left: -999px; top: 0; background: var(--yellow); color: var(--navy);
+      padding: .5rem 1rem; z-index: 10; font-weight: 700;
+    }
+    .skip-link:focus { left: 1rem; }
+
+    header.site-header { background: var(--white); border-bottom: 4px solid var(--yellow); }
+    .nav { display: flex; align-items: center; justify-content: space-between; padding: .6rem 0; }
+    .brand { display: inline-flex; }
+    .brand img { width: 64px; height: 64px; }
+    .badge {
+      display: inline-block; background: rgba(247,194,27,.15); color: var(--yellow);
+      border: 1px solid rgba(247,194,27,.4); padding: .3rem .8rem; border-radius: 999px;
+      font-size: .82rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+    }
+    .badge-light { background: var(--green); color: var(--white); border-color: var(--green); }
+
+    .hero {
+      background: radial-gradient(1200px 500px at 85% -10%, rgba(32,133,67,.35), transparent 60%),
+                  linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%);
+      color: var(--white);
+      padding: 1.75rem 0 2rem;
+    }
+    .hero-grid { display: grid; gap: 2rem; grid-template-columns: 1.1fr .9fr; align-items: center; }
+    .hero h1 { font-size: clamp(1.7rem, 3.4vw, 2.5rem); line-height: 1.12; margin: .6rem 0; letter-spacing: -.02em; }
+    .hero h1 em { font-style: normal; color: var(--yellow); }
+    .hero p.lead { font-size: 1.05rem; color: #d6e0f0; max-width: 38rem; margin: 0 0 1rem; }
+    .hero .pillars { margin-bottom: 1.25rem; }
+
+    .signup { background: var(--white); color: var(--ink); border-radius: var(--radius); padding: 1.75rem; box-shadow: 0 20px 50px rgba(0,0,0,.25); }
+    .signup h2 { margin: 0 0 .35rem; font-size: 1.3rem; color: var(--navy); }
+    .signup p { margin: 0 0 1.1rem; color: var(--muted); font-size: .95rem; }
+    .field { display: flex; flex-direction: column; gap: .3rem; margin-bottom: .9rem; }
+    .field label { font-weight: 600; font-size: .9rem; }
+    .field input, .field select {
+      font: inherit; padding: .75rem .9rem; border: 1.5px solid #cfd6e3; border-radius: 10px; background: #fff; color: var(--ink);
+    }
+    .field input:focus, .field select:focus { outline: 3px solid rgba(32,133,67,.35); border-color: var(--green); }
+    .consent { display: flex; gap: .55rem; align-items: flex-start; font-size: .82rem; color: var(--muted); margin: .25rem 0 1rem; }
+    .consent input { margin-top: .25rem; }
+    .btn {
+      display: inline-flex; justify-content: center; align-items: center; gap: .5rem; width: 100%;
+      font: inherit; font-weight: 700; font-size: 1rem; padding: .85rem 1.2rem; border: 0; border-radius: 10px;
+      background: var(--green); color: var(--white); cursor: pointer; transition: background .15s;
+    }
+    .btn:hover, .btn:focus-visible { background: var(--green-dark); }
+    .form-msg { margin-top: .8rem; font-size: .9rem; font-weight: 600; color: var(--green-dark); min-height: 1.2em; }
+
+    .signup-compact { padding: 1.25rem 1.4rem; }
+    .signup-compact h2 { font-size: 1.15rem; }
+    .signup-compact > p { margin-bottom: .8rem; font-size: .88rem; }
+    .signup-compact .field { margin-bottom: .6rem; gap: .2rem; }
+    .signup-compact .field label { font-size: .82rem; }
+    .signup-compact .field input, .signup-compact .field select { height: 2.5rem; padding: 0 .75rem; }
+    .signup-compact .consent { margin: .2rem 0 .8rem; }
+    .signup-compact .form-msg { margin: .6rem 0 0; min-height: 0; }
+    .signup-compact .form-msg:empty { display: none; }
+
+    .pillars { display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; padding: 0; margin: 0; list-style: none; color: #d6e0f0; font-weight: 600; }
+    .pillars li::before { content: "✓"; color: var(--yellow); margin-right: .45rem; font-weight: 800; }
+
+    section { padding: 4.5rem 0; }
+    .section-title { text-align: center; max-width: 46rem; margin: 0 auto 2.75rem; }
+    .section-title h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin: 0 0 .6rem; color: var(--navy); letter-spacing: -.01em; }
+    .section-title p { margin: 0; color: var(--muted); font-size: 1.05rem; }
+
+    .cards { display: grid; gap: 1.5rem; grid-template-columns: repeat(3, 1fr); }
+    .card { background: var(--white); border-radius: var(--radius); padding: 1.75rem; box-shadow: 0 6px 24px rgba(11,37,69,.07); border-top: 4px solid var(--green); }
+    .card .num { display: inline-grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 50%; background: rgba(32,133,67,.12); color: var(--green-dark); font-weight: 800; margin-bottom: .8rem; }
+    .card h3 { margin: 0 0 .5rem; color: var(--navy); font-size: 1.2rem; }
+    .card p { margin: 0; color: var(--muted); }
+
+    .alt { background: var(--white); }
+    .audiences { display: grid; gap: 1.5rem; grid-template-columns: repeat(3, 1fr); }
+    .audience { padding: 1.5rem; border: 1.5px solid #e3e8f1; border-radius: var(--radius); }
+    .audience h3 { margin: 0 0 .5rem; color: var(--navy); }
+    .audience ul { margin: .5rem 0 0; padding-left: 1.1rem; color: var(--muted); }
+    .audience .tag { font-size: .75rem; font-weight: 700; color: var(--yellow); text-transform: uppercase; letter-spacing: .05em; }
+
+    .steps { display: grid; gap: 1rem; grid-template-columns: repeat(4, 1fr); counter-reset: step; padding: 0; list-style: none; }
+    .steps li { background: var(--white); border-radius: var(--radius); padding: 1.4rem; box-shadow: 0 6px 24px rgba(11,37,69,.07); counter-increment: step; }
+    .steps li::before { content: counter(step); display: block; font-size: 2rem; font-weight: 800; color: var(--green); line-height: 1; margin-bottom: .5rem; }
+    .steps strong { display: block; color: var(--navy); margin-bottom: .25rem; }
+    .steps span { color: var(--muted); font-size: .95rem; }
+
+    .faq { max-width: 48rem; margin: 0 auto; }
+    .faq details { background: var(--white); border-radius: 12px; padding: 1.1rem 1.3rem; margin-bottom: .8rem; border: 1.5px solid #e3e8f1; }
+    .faq summary { cursor: pointer; font-weight: 700; color: var(--navy); list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: "+"; color: var(--green); font-size: 1.3rem; line-height: 1; }
+    .faq details[open] summary::after { content: "–"; }
+    .faq details p { margin: .7rem 0 0; color: var(--muted); }
+
+    .clube {
+      background: radial-gradient(900px 420px at 80% 50%, rgba(32,133,67,.35), transparent 65%),
+                  linear-gradient(180deg, var(--navy-2) 0%, var(--navy) 100%);
+      color: var(--white); overflow: hidden;
+    }
+    .clube-solo { max-width: 46rem; text-align: center; }
+    .clube-solo ul { display: inline-block; text-align: left; }
+    .clube h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin: .8rem 0 .8rem; letter-spacing: -.01em; }
+    .clube h2 em { font-style: normal; color: var(--yellow); }
+    .clube p { color: #d6e0f0; margin: 0 0 1.2rem; }
+    .clube ul { list-style: none; padding: 0; margin: 0 0 1.75rem; }
+    .clube li { padding-left: 1.6rem; position: relative; margin-bottom: .55rem; color: #e6edf7; }
+    .clube li::before { content: "✓"; position: absolute; left: 0; color: var(--yellow); font-weight: 800; }
+    .clube a.btn { width: auto; text-decoration: none; padding-inline: 2rem; }
+
+    .card-stage { display: grid; place-items: center start; padding: 1.5rem 0 .5rem 1rem; perspective: 900px; }
+    .card-float { width: min(270px, 100%); animation: card-float 6s ease-in-out infinite; }
+    .card-stage:hover .card-float { animation-play-state: paused; }
+    @keyframes card-float {
+      0%, 100% { transform: translateY(0) rotate(-8deg); }
+      50% { transform: translateY(-10px) rotate(-6deg); }
+    }
+    .member-card {
+      --rx: 0deg; --ry: 0deg; --mx: 50%; --my: 50%;
+      position: relative; width: 100%; aspect-ratio: 85.6 / 54;
+      border-radius: 18px; overflow: hidden;
+      background: linear-gradient(160deg, #ffffff 0%, #ffffff 55%, #eef1f6 56%, #f7f8fb 100%);
+      box-shadow: 0 24px 45px rgba(0,0,0,.4), 0 6px 14px rgba(0,0,0,.22);
+      transform: rotateX(var(--rx)) rotateY(var(--ry)) scale(var(--s, 1));
+      transform-style: preserve-3d;
+      transition: transform .6s cubic-bezier(.22,1,.36,1), box-shadow .6s ease;
+      will-change: transform;
+    }
+    .member-card.is-tilting { --s: 1.06; transition: transform .12s ease-out, box-shadow .3s ease; box-shadow: 0 32px 55px rgba(0,0,0,.45), 0 8px 18px rgba(0,0,0,.25); }
+    .member-card::after {
+      content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 2;
+      background: radial-gradient(circle at var(--mx) var(--my), rgba(255,255,255,.65), rgba(255,255,255,0) 55%);
+      mix-blend-mode: soft-light; opacity: 0; transition: opacity .4s ease;
+    }
+    .member-card.is-tilting::after { opacity: 1; }
+    @media (prefers-reduced-motion: reduce) {
+      .card-float { animation: none; transform: rotate(-8deg); }
+    }
+    .member-card .card-logo { position: absolute; left: 5%; top: 9%; width: 17%; height: auto; mix-blend-mode: multiply; }
+    .member-card .card-title { position: absolute; left: 24%; top: 13%; line-height: 1.05; }
+    .member-card .card-title small { display: block; font-style: italic; font-weight: 600; color: var(--green); font-size: clamp(.8rem, 2.6vw, 1.05rem); }
+    .member-card .card-title strong { display: block; color: var(--navy); font-weight: 900; font-size: clamp(1rem, 3.6vw, 1.55rem); letter-spacing: -.01em; }
+    .member-card .card-pin { position: absolute; right: -4%; bottom: 4%; width: 40%; opacity: .55; }
+    .member-card .card-nfc { position: absolute; right: 6%; top: 9%; width: 7%; }
+    .member-card .card-holder { position: absolute; left: 6%; bottom: 17%; color: var(--navy); }
+    .member-card .card-holder span { display: block; font-size: clamp(.55rem, 1.6vw, .7rem); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+    .member-card .card-holder b { font-size: clamp(.8rem, 2.4vw, 1.05rem); letter-spacing: .04em; }
+    .member-card .card-band { position: absolute; left: 0; right: 0; bottom: 0; height: 11%; background: linear-gradient(90deg, var(--green) 0 70%, var(--yellow) 70% 100%); }
+    .member-card .card-site { position: absolute; left: 6%; bottom: 2.2%; color: var(--white); font-size: clamp(.55rem, 1.6vw, .72rem); font-weight: 700; letter-spacing: .03em; }
+
+    .cta { background: var(--navy); color: var(--white); text-align: center; }
+    .cta h2 { color: var(--white); margin: 0 0 .6rem; font-size: clamp(1.6rem, 3vw, 2.2rem); }
+    .cta p { color: #d6e0f0; margin: 0 0 1.5rem; }
+    .cta a.btn { width: auto; text-decoration: none; padding-inline: 2rem; }
+
+    footer { background: #071a33; color: #9fb0c9; padding: 2rem 0; font-size: .9rem; }
+    .footer-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; align-items: center; }
+    footer a { color: #cfe0f5; }
+
+    @media (max-width: 900px) {
+      .hero-grid, .cards, .audiences { grid-template-columns: 1fr; }
+      .card-stage { place-items: center; padding: 1.5rem 0 .5rem; }
+      .card-float { width: min(270px, 80%); }
+      .steps { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 520px) {
+      .steps { grid-template-columns: 1fr; }
+      .badge { font-size: .72rem; padding: .25rem .65rem; }
+      .brand img { width: 56px; height: 56px; }    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="ClassiMEI – página inicial">
+        <img src="logo.png" alt="ClassiMEI" width="229" height="229">
+      </a>
+      <span class="badge badge-light">Site em construção</span>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge">Lançamento em breve</span>
+          <h1 id="titulo-principal">A rede profissional do <em>MEI</em> está chegando</h1>
+          <p class="lead">O ClassiMEI vai ajudar Microempreendedores Individuais a serem encontrados na internet, mostrarem seu trabalho com credibilidade e transformarem presença digital em novos negócios.</p>
+          <ul class="pillars">
+            <li>Perfil profissional gratuito</li>
+            <li>Busca por serviço e cidade</li>
+            <li>Contato direto pelo WhatsApp</li>
+          </ul>
+
+          <div class="card-stage">
+            <div class="card-float">
+            <div class="member-card" role="img" aria-label="Cartão de membro do Clube ClassiMEI">
+              <img class="card-logo" src="icon-512.png" alt="" width="512" height="512">
+              <div class="card-title"><small>Clube</small><strong>ClassiMEI</strong></div>
+              <svg class="card-nfc" viewBox="0 0 24 24" fill="none" stroke="#0b2545" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <path d="M6 8.5a5 5 0 0 1 0 7"/><path d="M10 6a9 9 0 0 1 0 12"/><path d="M14 3.5a13 13 0 0 1 0 17"/>
+              </svg>
+              <svg class="card-pin" viewBox="0 0 200 240" fill="none" stroke-width="5" aria-hidden="true">
+                <path d="M100 230C60 175 30 140 30 95a70 70 0 0 1 140 0c0 45-30 80-70 135z" stroke="#208543"/>
+                <path d="M100 205C68 162 46 134 46 97a54 54 0 0 1 108 0c0 37-22 65-54 108z" stroke="#f7c21b"/>
+                <circle cx="100" cy="95" r="30" stroke="#1c3f94"/>
+              </svg>
+              <div class="card-holder"><span>Membro</span><b>SEU NOME AQUI</b></div>
+              <div class="card-band"></div>
+              <span class="card-site">classimei.com.br</span>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="signup signup-compact" id="cadastro">
+          <h2>Seja avisado do lançamento</h2>
+          <p>Cadastre-se e garanta acesso antecipado ao piloto e ao Clube ClassiMEI.</p>
+          <form id="form-interesse" action="https://formsubmit.co/jorgertj@gmail.com" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="Lista de interesse ClassiMEI">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="perfil">Eu sou</label>
+              <select id="perfil" name="perfil">
+                <option value="MEI">Sou MEI</option>
+                <option value="Quero ser MEI">Quero me tornar MEI</option>
+                <option value="Cliente">Procuro serviços</option>
+                <option value="Empresa">Empresa ou parceiro</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="cidade">Cidade</label>
+              <input id="cidade" name="cidade" type="text" autocomplete="address-level2">
+            </div>
+            <label class="consent">
+              <input type="checkbox" id="lgpd" name="lgpd" required>
+              <span>Concordo em receber comunicações do ClassiMEI e com a <a href="politica-de-privacidade.html">Política de Privacidade</a>.</span>
+            </label>
+            <button class="btn" type="submit">Quero ser avisado</button>
+            <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="essencia">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="essencia">Mais que um classificado: uma rede profissional para MEIs</h2>
+          <p>O ClassiMEI cria um canal exclusivo de visibilidade qualificada para quem trabalha formalizado como Microempreendedor Individual.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <span class="num">1</span>
+            <h3>Visibilidade</h3>
+            <p>Seja encontrado por quem procura exatamente o serviço ou produto que você oferece, na sua cidade e no seu bairro.</p>
+          </article>
+          <article class="card">
+            <span class="num">2</span>
+            <h3>Credibilidade</h3>
+            <p>Apresente sua trajetória, serviços, fotos, área de atendimento e dados do seu CNPJ MEI de forma clara e profissional.</p>
+          </article>
+          <article class="card">
+            <span class="num">3</span>
+            <h3>Oportunidade</h3>
+            <p>Transforme sua presença digital em contatos e negócios, com link público e QR Code do seu perfil para divulgar onde quiser.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt" aria-labelledby="para-quem">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="para-quem">Para quem é o ClassiMEI</h2>
+          <p>Uma plataforma simples para quem oferece e para quem procura serviços de Microempreendedores Individuais.</p>
+        </div>
+        <div class="audiences">
+          <article class="audience">
+            <h3>Para o MEI</h3>
+            <ul>
+              <li>Perfil profissional com serviços e produtos</li>
+              <li>Portfólio de fotos e área atendida</li>
+              <li>Contato direto pelo WhatsApp</li>
+              <li>Benefícios do Clube ClassiMEI</li>
+            </ul>
+          </article>
+          <article class="audience">
+            <h3>Para quem procura</h3>
+            <ul>
+              <li>Busca por atividade, cidade e bairro</li>
+              <li>Compare perfis de profissionais formalizados</li>
+              <li>Fale direto com o MEI, sem intermediários</li>
+            </ul>
+          </article>
+          <article class="audience">
+            <span class="tag">Em breve</span>
+            <h3>Para empresas e parceiros</h3>
+            <ul>
+              <li>Acesso a uma rede organizada de MEIs</li>
+              <li>Demandas, benefícios e soluções B2B</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="clube" aria-labelledby="clube">
+      <div class="container clube-solo">
+        <div>
+          <span class="badge">Em breve</span>
+          <h2 id="clube">Clube <em>ClassiMEI</em>: benefícios exclusivos para quem é MEI</h2>
+          <p>Com o cartão do Clube ClassiMEI, o Microempreendedor Individual cadastrado terá acesso a vantagens pensadas para o dia a dia do seu negócio.</p>
+          <ul>
+            <li>Descontos com empresas parceiras</li>
+            <li>Condições especiais em produtos e serviços para o seu negócio</li>
+            <li>Conteúdos e cursos para fazer seu MEI crescer</li>
+            <li>Destaque para os membros dentro da rede ClassiMEI</li>
+          </ul>
+          <a class="btn" href="#cadastro">Quero entrar na lista do Clube</a>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="como-funciona">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="como-funciona">Como vai funcionar</h2>
+          <p>Do cadastro ao primeiro cliente, em poucos passos.</p>
+        </div>
+        <ol class="steps">
+          <li><strong>Crie seu perfil</strong><span>Cadastre seu CNPJ MEI, seus serviços e sua área de atendimento.</span></li>
+          <li><strong>Publique</strong><span>Seu perfil ganha uma página pública, link próprio e QR Code.</span></li>
+          <li><strong>Seja encontrado</strong><span>Clientes pesquisam por serviço e localização e encontram você.</span></li>
+          <li><strong>Feche negócios</strong><span>O contato chega direto no seu WhatsApp.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="alt" aria-labelledby="duvidas">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="duvidas">Perguntas frequentes</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>O que é o ClassiMEI?</summary>
+            <p>O ClassiMEI é uma rede profissional exclusiva para Microempreendedores Individuais. O MEI cria um perfil com seus serviços, produtos, área de atendimento e portfólio, e passa a ser encontrado por quem procura esses serviços na sua cidade ou bairro.</p>
+          </details>
+          <details>
+            <summary>Quem pode criar um perfil no ClassiMEI?</summary>
+            <p>Qualquer Microempreendedor Individual com CNPJ MEI ativo poderá criar seu perfil profissional na plataforma.</p>
+          </details>
+          <details>
+            <summary>Como os clientes entram em contato com o MEI?</summary>
+            <p>Quem procura um serviço pesquisa por atividade e localização, compara perfis e entra em contato diretamente com o MEI pelo WhatsApp ou pelo link indicado no perfil.</p>
+          </details>
+          <details>
+            <summary>O que é o Clube ClassiMEI?</summary>
+            <p>O Clube ClassiMEI vai reunir benefícios e vantagens exclusivas para os Microempreendedores Individuais cadastrados. Inscreva-se na lista de interesse para ser avisado assim que abrir.</p>
+          </details>
+          <details>
+            <summary>Quando o ClassiMEI será lançado?</summary>
+            <p>A plataforma está em desenvolvimento e começará com um piloto regional. Deixe seu e-mail nesta página para receber o convite de lançamento.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="chamada-final">
+      <div class="container">
+        <h2 id="chamada-final">Visibilidade. Credibilidade. Oportunidade.</h2>
+        <p>Faça parte dos primeiros MEIs da rede ClassiMEI.</p>
+        <a class="btn" href="#cadastro">Quero acesso antecipado</a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <p>&copy; <span id="ano">2026</span> ClassiMEI. Todos os direitos reservados.</p>
+      <p><a href="politica-de-privacidade.html">Política de Privacidade</a> · <a href="mailto:contato@classimei.com.br">contato@classimei.com.br</a></p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      // FormSubmit: envia o cadastro para jorgertj@gmail.com (confirme o 1º e-mail do FormSubmit)
+      var FORMSUBMIT_URL = "https://formsubmit.co/ajax/jorgertj@gmail.com";
+
+      document.getElementById("ano").textContent = new Date().getFullYear();
+
+      var card = document.querySelector(".member-card");
+      if (card) {
+        var stage = card.closest(".card-stage");
+        var frame = null;
+        stage.addEventListener("pointermove", function (e) {
+          if (e.pointerType === "touch") return;
+          var r = card.getBoundingClientRect();
+          var x = Math.min(Math.max((e.clientX - r.left) / r.width, 0), 1);
+          var y = Math.min(Math.max((e.clientY - r.top) / r.height, 0), 1);
+          if (frame) cancelAnimationFrame(frame);
+          frame = requestAnimationFrame(function () {
+            card.classList.add("is-tilting");
+            card.style.setProperty("--ry", ((x - 0.5) * 30).toFixed(2) + "deg");
+            card.style.setProperty("--rx", ((0.5 - y) * 24).toFixed(2) + "deg");
+            card.style.setProperty("--mx", (x * 100).toFixed(1) + "%");
+            card.style.setProperty("--my", (y * 100).toFixed(1) + "%");
+          });
+        });
+        stage.addEventListener("pointerleave", function () {
+          if (frame) cancelAnimationFrame(frame);
+          card.classList.remove("is-tilting");
+          card.style.setProperty("--rx", "0deg");
+          card.style.setProperty("--ry", "0deg");
+        });
+      }
+
+      var form = document.getElementById("form-interesse");
+      var msg = document.getElementById("form-msg");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var data = {
+          nome: form.nome.value.trim(),
+          email: form.email.value.trim(),
+          perfil: form.perfil.value,
+          cidade: form.cidade.value.trim(),
+          lgpd: form.lgpd.checked ? "Aceito" : "",
+          _subject: "Lista de interesse ClassiMEI",
+          _template: "table",
+          _captcha: "false"
+        };
+
+        if (!data.nome || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) {
+          msg.style.color = "#c0392b";
+          msg.textContent = "Preencha seu nome e um e-mail válido.";
+          return;
+        }
+        if (!form.lgpd.checked) {
+          msg.style.color = "#c0392b";
+          msg.textContent = "É preciso aceitar a Política de Privacidade.";
+          return;
+        }
+
+        msg.style.color = "";
+        if (window.gtag) gtag("event", "generate_lead", { perfil: data.perfil });
+
+        msg.textContent = "Enviando...";
+        fetch(FORMSUBMIT_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: JSON.stringify(data)
+        }).then(function (r) {
+          return r.json().then(function (body) {
+            if (!r.ok) throw new Error((body && body.message) || "erro");
+            return body;
+          });
+        }).then(function () {
+          form.reset();
+          msg.style.color = "";
+          msg.textContent = "Pronto! Você será avisado do lançamento.";
+        }).catch(function () {
+          msg.style.color = "#c0392b";
+          msg.textContent = "Não foi possível enviar agora. Tente novamente em instantes.";
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
